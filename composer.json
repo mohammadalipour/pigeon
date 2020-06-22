@@ -1,0 +1,30 @@
+{
+  "name": "mdap/Pigeon",
+  "description": "pigeon package is otp package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Alipour",
+      "email": "md.alipour91@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Pigeon\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2.5",
+    "ext-json": "*",
+    "psr/http-client": "^1.0"
+  },
+  "require-dev": {
+    "ext-curl": "*",
+    "ergebnis/composer-normalize": "^2.0",
+    "php-http/client-integration-tests": "dev-phpunit8",
+    "phpunit/phpunit": "^8.5.5",
+    "psr/log": "^1.1"
+  }
+}

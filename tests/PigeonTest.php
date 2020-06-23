@@ -1,11 +1,11 @@
 <?php
 	
-	namespace Pigeon\tests;
+	namespace Tests;
 	
 	use PHPUnit\Framework\TestCase;
 	use Pigeon\Pigeon;
-	use Pigeon\tests\Dispatcher\DispatchDriver;
-	use Pigeon\tests\Storage\StorageDriver;
+	use Tests\Dispatcher\DispatchDriver;
+	use Tests\Storage\StorageDriver;
 	
 	class PigeonTest extends TestCase
 	{

@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Pigeon\tests\Storage;
+	namespace Tests\Storage;
 	
 	
 	use Pigeon\Storage\AbstractPigeonStorage;

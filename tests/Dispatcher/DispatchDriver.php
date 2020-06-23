@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Pigeon\tests\Dispatcher;
+	namespace Tests\Dispatcher;
 	
 	
 	use Pigeon\Dispatcher\AbstractDispatcher;

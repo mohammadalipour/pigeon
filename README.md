@@ -26,10 +26,10 @@ use Pigeon\Dispatcher\AbstractDispatcher;
 	
 class DispatchDriver extends AbstractDispatcher
 {
-	public function send()
-	{
-	    //TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
-	}
+    public function send()
+    {
+	//TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
+    }
 }
 ```
 

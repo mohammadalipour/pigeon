@@ -31,7 +31,7 @@ $ composer require mdap/pigeon
 		
 		public function send()
 		{
-      //TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
+      			//TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
 		}
 	}
 ```
@@ -50,9 +50,9 @@ class FooController extends Controller
     public function index()
     {
         $dispatchDriver = new DispatchDriver('md.alipour91@gmail.com',1234);
-			  $pigeon = new Pigeon();
-			
-			  $result = $pigeon->send($dispatchDriver);
+	$pigeon = new Pigeon();
+		
+	$result = $pigeon->send($dispatchDriver);
     }
 }
 ```

@@ -31,7 +31,7 @@ $ composer require mdap/pigeon
 		
 		public function send()
 		{
-      			//TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
+      		    //TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
 		}
 	}
 ```

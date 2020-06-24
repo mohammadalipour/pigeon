@@ -20,20 +20,17 @@ $ composer require mdap/pigeon
 
 ```php
 <?php
+namespace foo\Dispatcher;
+
+use Pigeon\Dispatcher\AbstractDispatcher;
 	
-	namespace foo\Dispatcher;
-	
-	
-	use Pigeon\Dispatcher\AbstractDispatcher;
-	
-	class DispatchDriver extends AbstractDispatcher
+class DispatchDriver extends AbstractDispatcher
+{
+	public function send()
 	{
-		
-		public function send()
-		{
-      		    //TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
-		}
+	    //TODO: send OTP message with different ways, such as : E-mail,SMS,and etc ...
 	}
+}
 ```
 
 

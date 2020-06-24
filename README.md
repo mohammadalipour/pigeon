@@ -49,7 +49,7 @@ class FooController extends Controller
         $dispatchDriver = new DispatchDriver('md.alipour91@gmail.com',1234);
 	$pigeon = new Pigeon();
 		
-	$result = $pigeon->send($dispatchDriver);
+	$pigeon->send($dispatchDriver);
     }
 }
 ```

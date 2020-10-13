@@ -1,4 +1,4 @@
-![alt text](https://cdn1.bbcode0.com/uploads/2020/6/24/e8bab57e77aedeba3892eeddb35ac45e-full.png)
+![alt text](http://walletia.ir/logo.png)
 
 # Pigeon , PHP simple OTP package
 
